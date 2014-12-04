@@ -10,7 +10,8 @@ class BlogPostReader(object):
     def __init__(self, filepaths):
         self.filepaths = filepaths
         self.extensions = [
-            'markdown.extensions.meta'
+            'markdown.extensions.meta',
+            'markdown.extensions.codehilite'
         ]
 
     def __iter__(self):
