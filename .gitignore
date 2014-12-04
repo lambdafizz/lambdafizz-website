@@ -1,2 +1,5 @@
+*.pot
+*.mo
+*.pyc
 node_modules/
-public/
+build/

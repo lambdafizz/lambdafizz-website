@@ -1,9 +1,0 @@
----
-contentdir: "content"
-loyoutdir: "layouts"
-publishdir: "public"
-builddrafts: false
-indexes:
-baseurl: "http://www.lambdafizz.com"
-canonifyurls: true
----
