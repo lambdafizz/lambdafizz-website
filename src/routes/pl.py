@@ -4,5 +4,5 @@ URLS = {
     'contact-us': '/kontakt/',
 
     'latest-blog-post': '/blog/',
-    'blog-post': '/blog/<slug>'
+    'blog-post': '/blog/<slug>/'
 }
