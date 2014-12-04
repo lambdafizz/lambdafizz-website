@@ -19,7 +19,7 @@ class BlogPostReader(object):
 
     def _read_as_blogpost(self, filepath):
         with open(filepath, 'r') as f:
-            contents = f.read()
+            contents = f.read().decode('utf-8')
         md = markdown.Markdown(extensions=self.extensions)
         html = md.convert(contents)
         meta = md.Meta
